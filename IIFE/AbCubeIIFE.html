@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula (a+b)^3 using IIFE Exp</title>
+</head>
+<body>
+    <script>
+        let Cube= ((a,b)=>{
+            return (a*a*a)+(b*b*b)+(3*a*a*b)+(3*b*b*a)
+        })
+        (5,6)
+        console.log(Cube);
+    </script>
+</body>
+</html>
